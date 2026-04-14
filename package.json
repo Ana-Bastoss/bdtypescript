@@ -1,0 +1,22 @@
+{
+  "name": "atividade-typescript-drizzle",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Atividade CLI com TypeScript e banco de dados SQLite",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "db:push": "drizzle-kit push:sqlite"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "drizzle-orm": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/node": "^20.12.0",
+    "drizzle-kit": "^0.20.0",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}
