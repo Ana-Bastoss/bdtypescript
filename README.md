@@ -106,7 +106,7 @@ Toda a arquitetura HTML foi desenhada para facilitar a futura conexão com o có
   - **Classes Reutilizáveis:** O CSS modular permite que componentes como `<span class="tag">` e `.news-card` sejam iterados por laços de repetição (como `for` no EJS ou Handlebars) injetando dados do Drizzle ORM sem quebrar o layout.
   - **Rotas Padronizadas:** A estrutura de pastas reflete o que seria um sistema de rotas autêntico (ex: `GET /superadmin/cidades`).
 
-## ⏱️ Automação do DateTime (Data de Criação)
+## Automação do DateTime (Data de Criação)
 
 No HTML (ex: arquivo `index.html`), simulamos a visualização das datas nas notícias com horário fixado (`16/04/2026 - 20:42`). Esta simulação visual está diretamente ligada à estratégia desenvolvida no nosso Banco de Dados (CLI).
 
