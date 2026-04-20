@@ -1,11 +1,3 @@
-Ficou excelente a sua ideia de juntar tudo no mesmo repositório e documentar de forma clara\! Adicionar um sumário vai deixar o projeto com uma cara extremamente profissional, facilitando muito a vida do professor na hora de corrigir.
-
-Aqui está o seu `README.md` completo. Eu mantive **exatamente** o texto que você já tinha feito para a parte do CLI, apenas adicionei o sumário no topo e a nova seção bem detalhada e argumentada sobre o portal estático na parte de baixo.
-
-Basta copiar e colar no seu arquivo `README.md`:
-
------
-
 # Fake News - Portal e Gestão de Notícias
 
 ## 📑 Sumário
