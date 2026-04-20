@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Perfil - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="perfis_listar.html">Cancelar e Voltar</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2 class="section-title">Atualizar Perfil de Acesso</h2>
+            <form action="perfis_listar.html" method="GET">
+                <div class="form-group">
+                    <label>ID (Inalterável):</label>
+                    <input type="text" value="1" disabled style="background-color: #eee;">
+                </div>
+                <div class="form-group">
+                    <label>Nome do Perfil:</label>
+                    <input type="text" value="Autor" required>
+                </div>
+                <div class="form-group">
+                    <label>Descrição das Permissões:</label>
+                    <textarea rows="3" style="width: 100%; padding: 12px; border: 1px solid #f8bbd0; border-radius: 6px;">Criar novas matérias, editar as próprias matérias, visualizar comentários.</textarea>
+                </div>
+                <button type="submit" class="btn">Atualizar Dados</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

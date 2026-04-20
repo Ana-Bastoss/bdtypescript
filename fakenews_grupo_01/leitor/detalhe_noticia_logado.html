@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lendo Notícia - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/logo.png" alt="Logo Fake News">
+            <h1>Fake News</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="meu_perfil.html">Meu Perfil</a></li>
+                <li><a href="../index.html" style="color: #d81b60;">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="form-container" style="max-width: 800px;">
+            <div class="news-meta" style="font-size: 1rem; border-bottom: 1px solid #f8bbd0; padding-bottom: 10px; margin-bottom: 20px;">
+                <span>Publicado em: <strong>Brasília / DF</strong></span>
+                <span>Data: <strong>16/04/2026</strong></span>
+            </div>
+            
+            <h1 style="color: #4a148c; margin-bottom: 15px;">Nova API de processamento paralelo é lançada</h1>
+            
+            <div class="tag-container" style="margin-bottom: 25px;">
+                <span class="tag">#tecnologia</span>
+                <span class="tag">#python</span>
+            </div>
+
+            <div style="line-height: 1.8; color: #444; font-size: 1.05rem;">
+                <p style="margin-bottom: 15px;">Desenvolvedores locais criam solução em Python utilizando threads para otimizar a leitura de dados de tribunais de forma simultânea. O projeto promete reduzir o tempo de processamento em até 40%.</p>
+            </div>
+        </article>
+
+        <section class="form-container" style="max-width: 800px; margin-top: 30px;">
+            <h3 class="section-title">Comentários</h3>
+            
+            <div style="background-color: #faf5f7; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #fce4ec;">
+                <p style="font-weight: 600; color: #880e4f; margin-bottom: 5px;">Usuário_01 <span style="font-size: 0.8rem; color: #999; font-weight: normal;">- há 2 horas</span></p>
+                <p>Muito interessante essa abordagem com threads no Python!</p>
+            </div>
+
+            <form action="#" method="POST" style="margin-top: 30px;">
+                <div class="form-group">
+                    <label for="comentario" style="color: #d81b60;">Deixe seu comentário como Ana Beatriz:</label>
+                    <textarea id="comentario" name="comentario" rows="4" style="width: 100%; padding: 12px; border: 1px solid #d81b60; border-radius: 6px; outline: none; resize: vertical;" placeholder="Escreva o que você achou da matéria..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Publicar Comentário</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fake News - Portal de Notícias</p>
+    </footer>
+
+</body>
+</html>

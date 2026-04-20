@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Tag - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="tags_listar.html">Cancelar e Voltar</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2 class="section-title">Atualizar Tag</h2>
+            <form action="tags_listar.html" method="GET">
+                <div class="form-group">
+                    <label>ID (Inalterável):</label>
+                    <input type="text" value="1" disabled style="background-color: #eee;">
+                </div>
+                <div class="form-group">
+                    <label>Nome da Tag:</label>
+                    <input type="text" value="tecnologia" required>
+                </div>
+                <button type="submit" class="btn">Atualizar Dados</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

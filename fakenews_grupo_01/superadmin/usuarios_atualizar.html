@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Usuário - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="usuarios_listar.html">Cancelar e Voltar</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2 class="section-title">Atualizar Dados do Usuário</h2>
+            <form action="usuarios_listar.html" method="GET">
+                <div class="form-group">
+                    <label>Nome Completo:</label>
+                    <input type="text" value="Ana Beatriz" required>
+                </div>
+                <div class="form-group">
+                    <label>E-mail:</label>
+                    <input type="email" value="ana.beatriz@fakenews.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Perfil de Acesso:</label>
+                    <select required>
+                        <option value="1">Leitor</option>
+                        <option value="4" selected>Superadmin</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Atualizar Dados</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

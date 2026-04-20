@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo Comentário - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="comentarios_listar.html">Voltar à Lista</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container" style="max-width: 800px;">
+            <h2 class="section-title">Adicionar Comentário Manualmente</h2>
+            <form action="comentarios_listar.html" method="GET">
+                <div class="form-group" style="display: flex; gap: 15px;">
+                    <div style="flex: 1;">
+                        <label>ID da Notícia:</label>
+                        <input type="number" placeholder="Ex: 1" required>
+                    </div>
+                    <div style="flex: 1;">
+                        <label>ID do Usuário (Autor):</label>
+                        <input type="number" placeholder="Ex: 5" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Corpo do Comentário:</label>
+                    <textarea rows="4" style="width: 100%; padding: 12px; border: 1px solid #f8bbd0; border-radius: 6px;" required></textarea>
+                </div>
+                <button type="submit" class="btn">Guardar Comentário</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Comentários - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="dashboard.html">Voltar ao Dashboard</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="action-bar">
+            <h2 class="section-title" style="margin:0; border:none;">Moderação de Comentários</h2>
+            <a href="comentarios_criar.html" class="btn">+ Novo Comentário</a>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr><th>ID</th><th>Autor</th><th>Notícia Vinculada</th><th>Trecho</th><th>Ações</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td><td>Usuário_01</td><td>Nova API de processamento...</td><td>"Muito interessante essa..."</td>
+                        <td>
+                            <div class="action-buttons">
+                                <a href="comentarios_exibir.html" class="btn btn-small" style="background-color: #2196F3;">Ver</a>
+                                <a href="comentarios_atualizar.html" class="btn btn-small">Editar</a>
+                                <a href="comentarios_apagar.html" class="btn btn-small" style="background-color: #dc3545;">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

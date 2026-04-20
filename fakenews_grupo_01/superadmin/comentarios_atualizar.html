@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Comentário - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="comentarios_listar.html">Cancelar e Voltar</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container" style="max-width: 800px;">
+            <h2 class="section-title">Moderar/Editar Comentário</h2>
+            <form action="comentarios_listar.html" method="GET">
+                <div class="form-group">
+                    <label>ID (Inalterável):</label>
+                    <input type="text" value="1" disabled style="background-color: #eee;">
+                </div>
+                <div class="form-group">
+                    <label>Corpo do Comentário:</label>
+                    <textarea rows="4" style="width: 100%; padding: 12px; border: 1px solid #f8bbd0; border-radius: 6px;" required>Muito interessante essa abordagem com threads no Python!</textarea>
+                </div>
+                <button type="submit" class="btn">Atualizar Comentário</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

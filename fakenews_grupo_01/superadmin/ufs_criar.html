@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova UF - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="ufs_listar.html">Voltar à Lista</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2 class="section-title">Registrar Nova UF</h2>
+            <form action="ufs_listar.html" method="GET">
+                <div class="form-group">
+                    <label>Nome do Estado:</label>
+                    <input type="text" placeholder="Ex: Goiás" required>
+                </div>
+                <div class="form-group">
+                    <label>Sigla:</label>
+                    <input type="text" placeholder="Ex: GO" maxlength="2" required>
+                </div>
+                <button type="submit" class="btn">Salvar UF</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

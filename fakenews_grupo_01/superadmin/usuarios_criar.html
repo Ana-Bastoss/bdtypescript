@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo Usuário - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="usuarios_listar.html">Voltar à Lista</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2 class="section-title">Registar Novo Usuário</h2>
+            <form action="usuarios_listar.html" method="GET">
+                <div class="form-group">
+                    <label>Nome Completo:</label>
+                    <input type="text" placeholder="Ex: Carlos Silva" required>
+                </div>
+                <div class="form-group">
+                    <label>E-mail:</label>
+                    <input type="email" placeholder="carlos@exemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Perfil de Acesso:</label>
+                    <select required>
+                        <option value="">Selecione...</option>
+                        <option value="1">Leitor</option>
+                        <option value="2">Autor</option>
+                        <option value="3">Editor</option>
+                        <option value="4">Superadmin</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Guardar Usuário</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

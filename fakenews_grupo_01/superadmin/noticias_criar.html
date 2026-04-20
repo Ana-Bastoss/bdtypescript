@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova Notícia (Admin) - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container"><h1>Fake News</h1></div>
+        <nav><ul><li><a href="noticias_listar.html">Voltar à Lista</a></li></ul></nav>
+    </header>
+    <main>
+        <div class="form-container" style="max-width: 800px;">
+            <h2 class="section-title">Registrar Nova Notícia (Bypass Admin)</h2>
+            <form action="noticias_listar.html" method="GET">
+                <div class="form-group">
+                    <label>Título:</label>
+                    <input type="text" placeholder="Digite o título..." required>
+                </div>
+                <div class="form-group" style="display: flex; gap: 15px;">
+                    <div style="flex: 1;">
+                        <label>Autor:</label>
+                        <select required><option value="1">Ana Beatriz</option></select>
+                    </div>
+                    <div style="flex: 1;">
+                        <label>Cidade / UF:</label>
+                        <select required><option value="1">Brasília / DF</option></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Tags (separadas por vírgula):</label>
+                    <input type="text" placeholder="Ex: tecnologia, python">
+                </div>
+                <div class="form-group">
+                    <label>Corpo do Texto:</label>
+                    <textarea rows="6" style="width: 100%; padding: 12px; border: 1px solid #f8bbd0; border-radius: 6px;" required></textarea>
+                </div>
+                <button type="submit" class="btn">Salvar Matéria</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

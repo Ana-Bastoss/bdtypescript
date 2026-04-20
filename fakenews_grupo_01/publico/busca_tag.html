@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca por Tag - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/logo.png" alt="Logo Fake News">
+            <h1>Fake News</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="busca_uf.html">Por Estado</a></li>
+                <li><a href="busca_tag.html">Por Tag</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container" style="max-width: 600px; margin-bottom: 40px;">
+            <h2 class="section-title">Encontrar por Assunto (Tag)</h2>
+            <form action="#" method="GET">
+                <div class="form-group">
+                    <label for="tag">Digite a Tag:</label>
+                    <input type="text" id="tag" name="tag" placeholder="Ex: tecnologia, python, hackathon">
+                </div>
+                <button type="submit" class="btn">Pesquisar</button>
+            </form>
+        </div>
+
+        <h3 class="section-title">Resultados para a tag: #tecnologia</h3>
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-meta">
+                    <span>Brasília / DF</span>
+                    <span>16/04/2026</span>
+                </div>
+                <h3 class="news-title">Nova API de processamento paralelo é lançada</h3>
+                <div class="tag-container">
+                    <span class="tag">#tecnologia</span>
+                    <span class="tag">#python</span>
+                </div>
+                <a href="detalhe_noticia.html" class="btn">Ler mais</a>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fake News - Portal de Notícias</p>
+    </footer>
+
+</body>
+</html>

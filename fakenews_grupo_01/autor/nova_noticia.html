@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Notícia - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/logo.png" alt="Logo Fake News">
+            <h1>Fake News</h1>
+        </div>
+        <nav><ul><li><a href="minhas_noticias.html">Voltar</a></li></ul></nav>
+    </header>
+
+    <main>
+        <div class="form-container" style="max-width: 800px;">
+            <h2 class="section-title">Escrever Nova Notícia</h2>
+            <form action="minhas_noticias.html" method="GET">
+                <div class="form-group">
+                    <label for="titulo">Título da Matéria</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cidade">Cidade / Estado</label>
+                    <select id="cidade" required>
+                        <option value="">Selecione...</option>
+                        <option value="1">Brasília / DF</option>
+                        <option value="2">São Paulo / SP</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="tags">Tags (separadas por vírgula)</label>
+                    <input type="text" id="tags" placeholder="Ex: tecnologia, segurança">
+                </div>
+
+                <div class="form-group">
+                    <label for="texto">Corpo do Texto</label>
+                    <textarea id="texto" rows="8" style="width: 100%; padding: 12px; border: 1px solid #f8bbd0; border-radius: 6px;" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Publicar Matéria</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

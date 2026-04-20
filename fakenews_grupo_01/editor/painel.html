@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Editor - Fake News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/logo.png" alt="Logo Fake News">
+            <h1>Fake News</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="meu_perfil.html">Meu Perfil</a></li>
+                <li><a href="../index.html" style="color: #d81b60;">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="action-bar">
+            <h2 class="section-title" style="margin-bottom: 0; border: none;">Moderação Geral de Notícias</h2>
+        </div>
+        <form class="filter-bar" action="#" method="GET">
+            
+            <div class="form-group" style="flex: 2; min-width: 200px;">
+                <label for="titulo_filtro">Título da Matéria:</label>
+                <input type="text" id="titulo_filtro" name="titulo" placeholder="Digite palavras do título...">
+            </div>
+
+            <div class="form-group" style="flex: 1; min-width: 120px;">
+                <label for="tag_filtro">Tag:</label>
+                <input type="text" id="tag_filtro" name="tag" placeholder="Ex: hackathon">
+            </div>
+
+            <div class="form-group">
+                <label for="status_filtro">Status:</label>
+                <select id="status_filtro" name="status">
+                    <option value="">Todos</option>
+                    <option value="publicado">Publicados</option>
+                    <option value="despublicado">Despublicados</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="autor_filtro">Autor:</label>
+                <select id="autor_filtro" name="autor">
+                    <option value="">Todos</option>
+                    <option value="carlos">Carlos Silva</option>
+                    <option value="mariana">Mariana Costa</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Filtrar</button>
+        </form>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Título</th>
+                        <th>Autor Original</th>
+                        <th>Tags</th> <th>Status</th>
+                        <th>Ações (Moderação)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>16/04/2026</td>
+                        <td>Nova API de processamento paralelo é lançada</td>
+                        <td>Carlos Silva</td>
+                        <td>
+                            <div class="tag-container" style="margin-bottom: 0;">
+                                <span class="tag">#tecnologia</span>
+                                <span class="tag">#python</span>
+                            </div>
+                        </td>
+                        <td><span class="badge-publicado">Publicado</span></td>
+                        <td>
+                            <a href="editar_qualquer_noticia.html" class="btn btn-small">Editar</a>
+                            <a href="painel.html" class="btn btn-small btn-despublicar">Despublicar</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>15/04/2026</td>
+                        <td>Avanços em infraestrutura de Nuvem e Segurança</td>
+                        <td>Mariana Costa</td>
+                        <td>
+                            <div class="tag-container" style="margin-bottom: 0;">
+                                <span class="tag">#cloud</span>
+                                <span class="tag">#cybersecurity</span>
+                            </div>
+                        </td>
+                        <td><span class="badge-despublicado">Despublicado</span></td>
+                        <td>
+                            <a href="editar_qualquer_noticia.html" class="btn btn-small">Editar</a>
+                            <a href="painel.html" class="btn btn-small btn-publicar">Publicar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+</html>
