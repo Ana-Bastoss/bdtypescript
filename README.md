@@ -73,6 +73,8 @@ Ao iniciar a aplicação, você poderá navegar pelo seguinte menu:
 
 # 🌐 Portal Web Estático (HTML/CSS)
 
+**[LINK POSTADO](https://fakenewspink.netlify.app/)**
+
 A pasta `/fakenews_grupo_01` contém a prototipação completa das telas do portal "Fake News", desenvolvida com **HTML5** e **CSS3** puro (sem uso de frameworks), respeitando rigorosamente a hierarquia de atores, diagramas e regras estabelecidas na documentação do projeto.
 
 ## Como Acessar e Testar
